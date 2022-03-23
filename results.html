@@ -51,7 +51,7 @@
                 c.width = 1400;
                 c.height = 2033;
                 var ctx = c.getContext("2d");
-                ctx.fillStyle = "#EEEEEE"
+                ctx.fillStyle = "#EEE9EE"
                 ctx.fillRect(0, 0, 1400, 2033);
                 ctx.drawImage(background, 0, 0);
     
@@ -73,12 +73,12 @@
                 ctx.font="50px Montserrat"
                 ctx.textAlign="center"
                 ctx.fillStyle="#222222"
-                ctx.fillText("Left / Right Axis (x): " + x_axis, 725, 1700)
-                ctx.fillText("Auth / Lib Axis (y): " + y_axis, 725, 1775)
-                ctx.fillText("Prog / Con Axis (z): " + z_axis, 725, 1850)
+                ctx.fillText("Left / Right Axis (x): " + x_axis, 725, 1800)
+                ctx.fillText("Auth / Lib Axis (y): " + y_axis, 725, 1875)
+                ctx.fillText("Prog / Con Axis (z): " + z_axis, 725, 1950)
                 ctx.textAlign="right"
                 ctx.font="60px Montserrat"
-                ctx.fillText("posthumanPolComp.github.io", 725, 1925)
+                ctx.fillText("posthumanPolComp.github.io", 1400, 1975)
     
                 document.getElementById("banner").src = c.toDataURL();
             }
