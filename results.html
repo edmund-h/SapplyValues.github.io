@@ -44,29 +44,28 @@
         y_axis  = parseFloat(urlParams.get("auth"))
         z_axis  = parseFloat(urlParams.get("prog"))
     
-	// TODO: change this so that dot and line are being drawn on the right place on the image
         window.onload = function() {
             var background = new Image();
             background.onload = function() {
                 var c = document.createElement("canvas");
-                c.width = 1850;
-                c.height = 1600;
+                c.width = 1400;
+                c.height = 2033;
                 var ctx = c.getContext("2d");
                 ctx.fillStyle = "#EEEEEE"
-                ctx.fillRect(0, 0, 1850, 1600);
+                ctx.fillRect(0, 0, 1400, 2033);
                 ctx.drawImage(background, 0, 0);
     
                 var dot = c.getContext("2d");
                 dot.beginPath();
-                dot.arc(200 + (1000 * (x_axis+10)/20), 1150 - (1000 * (y_axis + 10)/20), 25, 0, 2 * Math.PI);
+                dot.arc(207 + (1000 * (x_axis+10)/20), 1243 - (1000 * (y_axis + 10)/20), 25, 0, 2 * Math.PI);
                 dot.fillStyle = 'red';
                 dot.fill();
                 dot.stroke();
     
                 var line = c.getContext("2d");
                 line.beginPath();
-                line.moveTo(1500, 1145 - (1000 * (z_axis + 10)/20));
-                line.lineTo(1650, 1145 - (1000 * (z_axis + 10)/20));
+                line.moveTo(204 + (1000 * (z_axis + 10)/20), 1532);
+                line.lineTo(204 + (1000 * (z_axis + 10)/20), 1433);
                 line.lineWidth = 10;
                 line.strokeStyle = "red";
                 line.stroke();
