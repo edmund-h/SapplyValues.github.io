@@ -270,7 +270,7 @@
     function pass(serious) {
         // Some simple validation
         if (serious === true && !jQuery.isEmptyObject(testAnswers) && taken !== true) {
-            sendDataAndRefer(testAnswers, testPercentages, answers);
+            //sendDataAndRefer(testAnswers, testPercentages, answers);
         } else {
             Cookies.set('taken', true, { expires: new Date(new Date().getTime() + 10 * 60 * 1000), sameSite: 'strict' })
             location.href = `results.html?`+ window.location.search.substring(1)
