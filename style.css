@@ -235,7 +235,8 @@ span.weight-300 {
 		margin-top: 0pt;
 		margin-bottom: 0pt;
 		font-weight: bold;
-        text-anchor: middle;
+                text-anchor: middle;
+                word-wrap: break-word;
 	}
 	
 	#banner {
