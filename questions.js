@@ -23,7 +23,7 @@ questions =  [
     {"id": 320, "question": "There is an optimal set of methods that are favored by the universe.", "effects": {"auth": 1}},
     {"id": 321, "question": "Society is about what we have in common rather than what we accomplish.", "effects": {"auth": 1}},
     {"id": 322, "question": "If everyone had total agency over their appearance and abilites, diversity would vanish completely.", "effects": {"auth": 1}},
-    {"id": 422, "question": "A lot of inefficiency is prefereable to a lot of uniformity.", "effects": {"auth": -1}},
+    {"id": 422, "question": "A lot of inefficiency is preferable to a lot of uniformity.", "effects": {"auth": -1}},
     {"id": 423, "question": "The inclination to shape the environment to suit their own needs is the most admirable quality in humanity.", "effects": {"auth": -1}},
     {"id": 424, "question": "It is impossible for a human being to reach their potential following the methods used by another.", "effects": {"auth": -1}},
     {"id": 425, "question": "There is no way that diversity could ever possibly hurt any endeavor.", "effects": {"auth": -1}},
